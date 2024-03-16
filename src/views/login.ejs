@@ -1,0 +1,34 @@
+<!-- Login page -->
+<form action="/login" method="post">
+  <div class="login-container">
+
+    <% if(errorMessage) { %>
+    <div class="alert alert-danger" role="alert">
+      <%= errorMessage %>
+    </div>
+    <% } %>
+
+    <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+    <div class="input-group margin">
+      <span class="input-group-text ">Email</span>
+      <input required name="email" type="email" aria-label="email"
+        class="form-control" placeholder="enter your email">
+    </div>
+
+    <div class="mb-3">
+      <div class="input-group ">
+        <span class="input-group-text">Password</span>
+        <input required name="password" type="password" aria-label="password"
+          class="form-control" placeholder="enter your password">
+      </div>
+    </div>
+
+    <button type="submit"
+      class="btn btn-md mt-2 lbtn login-button">Login</button>
+
+    <p>Don't have an account? <a href="/register" class="link-info">Register
+        here</a></p>
+
+  </div>
+
+</form>
