@@ -2,7 +2,7 @@
   "type": "module",
   "name": "placementcell",
   "version": "1.0.0",
-  "description": "A web application for Team Career Camp to manage student interviews and placements.",
+  "description": "A web application to manage student interviews and placements.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
