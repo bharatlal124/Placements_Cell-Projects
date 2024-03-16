@@ -1,0 +1,148 @@
+:root{
+    --text-font:fangsong;
+}
+
+body{
+    font-family: var(--text-font);
+    background-color: #fff;
+}
+
+.custom-navbar{
+    background-color: darkslategray;
+    font-family: var(--text-font);
+    font-size: 20px;   
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-container img {
+    position: absolute;
+    height: 70vh;
+    width: 70vb;
+    top:6rem;
+    right: 2%;
+
+}
+
+.text-overlay{    
+    position: absolute; 
+    padding: 20rem;
+    margin-left: 3rem;
+    width: 60%;
+    top: 30%; 
+    color: darkslategray;
+    font-size: 50px; 
+    font-weight: bold;
+    font-family: var(--text-font);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.buttons{
+    position: absolute; 
+    top: 60%; 
+    left: 18%;
+    transform: translate(-50%, -50%); 
+}
+
+.custom-btn {
+    background-color: darkslategray;
+    color: white;
+    font-family: var(--text-font);
+    font-size: 30px;
+    border: none;
+    margin: 5px;
+    box-shadow:  0px 0px 6px 0px black;
+}
+
+.custom-btn:hover {
+    background-color: #5e5e5e;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+img{
+    width: 50px;
+}
+
+.table-border {
+    border: 2px solid rgb(65 65 115);
+    border-collapse: collapse;
+}
+
+.table-border th,
+.table-border td {
+    border-left: 1px solid  rgb(65 65 115);
+    border-right: 1px solid  rgb(65 65 115);
+}
+
+.layout-container {
+    width: 50vw;
+    height: fit-content;
+    background-color: #dfdfdf;
+    margin: 20px auto;
+    /* border: 5px solid black; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 4px black;
+    padding: 20px;    
+}
+
+.form-heading {
+    font-family: var(--text-font);
+    font-weight: 900;
+    font-size: 50px; 
+    text-align: center;
+}
+
+.login-container{
+    width: 50vw;
+    height: fit-content;
+    background-color: #7b7a7a;
+    margin: 20px auto;
+    /* border: 5px solid black; */
+    box-shadow: 0px 0px 6px 4px black;
+    border-radius: 5px;
+    padding: 20px; 
+    text-align: center; 
+    color: white;
+    font-family: var(--text-font);
+}
+
+.margin {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+
+  .login-button{
+    background-color: white;
+    width: 250px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .login-button:hover{
+    background-color: rgb(3, 3, 3);
+  }
+
+
+@media (max-width: 1200px) {
+    .main-container img {
+        height: 90vh;
+        max-width: 100%;
+    }
+
+    .buttons{
+        top: 80%; 
+    }
+
+    .custom-btn {
+        font-size: 20px;
+    }
+} 
