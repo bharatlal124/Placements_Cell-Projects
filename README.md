@@ -37,6 +37,10 @@ The Placement Cell project aims to streamline the process of maintaining a datab
 5. Server running at:
    **http://localhost:3300**
 
+6. Sample testing ID:
+   `ID` : abc@gmail.com
+   `Password` : abc123
+
 ## Deployment Link
 
 - https://placements-cell-projects.onrender.com/
